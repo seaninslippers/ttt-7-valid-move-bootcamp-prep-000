@@ -11,8 +11,8 @@ def valid_move? (board, index)
     end
   end
 
- def on_board? (index)
-   if index.between?(0,8) == true
+ def on_board? (number)
+   if number.between?(0,8) == true
      return true
    else
      return false
